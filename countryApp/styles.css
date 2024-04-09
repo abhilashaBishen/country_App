@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.header-box{
+  
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+    padding-inline:24px;
+    margin-bottom: 2rem;
+}
+.header-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-inline:auto;
+    
+    
+}
+button{
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2); 
+    border-color: rgb(240, 230, 230);
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+    color:white;
+}
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.countries-container{
+    max-width: 1200px;
+    margin-inline:auto;
+    display:flex;
+    gap:26px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.country-card{
+    display:inline-block;
+    width:250px;
+    height: 150px;
+    padding:1rem;
+    border-radius: 10px;
+    box-shadow: 0 0px 8px 0px rgba(0,0,0,0.1) ;
+
+
+}
+.country-card:hover{
+    background-color:rgb(46, 38, 38);
+    color:white;
+    transform:scale(1.2);
+ 
+}
